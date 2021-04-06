@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/home.css" />
+    <link rel="stylesheet" href="./static/diary.css" />
+    <script src="https://kit.fontawesome.com/5fd56c3b4d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="profile-container">
+            <div class="header profile-title font-neo">
+              TODAY<span style="color: red"> 35</span> | TOTAL 990000
+            </div>
+            <div class="box profile-box">
+              <div class="profile-image">
+                <img class="profile-image-img" src="./static/images/bam.jpg" alt="프로필 이미지"/>
+              </div>
+              <div class="profile-text">
+                밤식빵은 최고의 음식 <br /> 근데 요즘 비싸졌어용
+              </div>
+              <div class="profile-username font-kyobohand">
+                <span style="color: rgb(100,24,36)">밤빵</span> <남>
+              </div>
+              <div class="profile-dropdown font-kyobohand">
+                <div class="dropdown-button">
+                  <div class="dropdown-title">파도타기~</div>
+                  <div class="triangle-down"></div>
+                </div>
+                <div class="dropdown-content">
+                  <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티</a>
+                  <a href="https://portal.yonsei.ac.kr" target="_blank">연세포탈</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="header content-title">
+              <div class="content-title-name"><span style="color:blue">밤빵</span>'s 미니홈피</div>
+              <div class="content-title-url">https://www.miniroom.com/bambbang</div>
+            </div>
+            <div class="box content-box">
+                <div class="date-box font-neo">
+                    <div class="today">03.31<br />WED</div>
+                    <div class="date-list">
+                      <div class="date">1</div>
+                      <div class="date">2</div>
+                      <div class="date">3</div>
+                      <div class="date">4</span></div>
+                      <div class="date">5</span></div>
+                      <div class="date"><span class="color-blue">6</span></div>
+                      <div class="date"><span class="color-red">7</span></div>
+                      <div class="date">8</div>
+                      <div class="date">9</div>
+                      <div class="date">10</div>
+                      <div class="date">11</span></div>
+                      <div class="date">12</span></div>
+                      <div class="date"><span class="color-blue">13</span></div>
+                      <div class="date"><span class="color-red">14</span></div>
+                      <div class="date">15</div>
+                      <div class="date">16</div>
+                      <div class="date">17</div>
+                      <div class="date">18</span></div>
+                      <div class="date">19</span></div>
+                      <div class="date"><span class="color-blue">20</span></div>
+                      <div class="date"><span class="color-red">21</span></div>
+                      <div class="date">22</div>
+                      <div class="date">23</div>
+                      <div class="date">24</div>
+                      <div class="date">25</span></div>
+                      <div class="date">26</span></div>
+                      <div class="date"><span class="color-blue">27</span></div>
+                      <div class="date"><span class="color-red">28</span></div>
+                      <div class="date">29</div>
+                      <div class="date">30</div>
+                      <div class="date">31</div>
+                    </div>
+                </div>
+                <div class="diary-box">
+                  <div class="diary-name"><span class="color-blue"><b>2021.03.30. &nbsp; 화 &nbsp; 17:00</b></span>
+                       <div class="diary-article">
+                           오늘 안에 과제를 끝내지 못할 것 같다.<br>
+                           으악~!~!<br>
+                           낮에는 너무너무 바쁘다 흑흑<br>
+                           결국 4.1 밤에 끝내게 되었다<br>
+                           덕분에 일기 또한 날짜와 일치하지 않게 작성중<br>
+                           그래도 얼마 안 남았다!<br>
+                           나도 화이팅 다른 분들도 화이팅!
+                       </div>
+                       <br>
+                   </div>
+                   <div class="diary-name"><span class="color-blue"><b>2021.03.29. &nbsp; 월 &nbsp; 17:00</b></span>
+                       <div class="diary-article">
+                           월요일이 세상에서 제일 싫어~!<br>
+                           5일근무, 2휴일 말고<br>
+                           4일근무, 3휴일로 바꾸자!<br>
+                           아무말 대잔치<br>
+                           오늘은 다이어리가 과제였으니,<br>
+                           내일은 방명록이 과제겠군!
+                       </div>
+                       <br>
+                   </div>
+                   <div class="diary-name"><span class="color-blue"><b>2021.03.28. &nbsp; 일 &nbsp; 17:00</b></span>
+                       <div class="diary-article">
+                           내일은 월요일이다.<br>
+                           항상 잠이 부족한 이 기분...<br>
+                           푹~ 자본게 언제쯤인지? ㅎㅎ
+                       </div>
+                       <br>
+                   </div>
+
+                   <div class="diary" id="secret-box">
+                      <div class="diary-name"><span class="color-blue"><b>밤빵의 비밀일기</b></span>
+                        <div id="secret-article"></div>
+                      </div>
+                   </div>
+
+
+                   <button class="diary-button" id="button" onclick="getTextFile();">
+                      <i class="fas fa-lock"></i>밤빵의 비밀일기 보려면 클릭!
+                   </button>
+
+                </div>
+            </div>
+          </div>
+          <div class="menu-container">
+            <a href="./home.html" class="menu-button1"><b>홈</b></a>
+            <a href="./diary.html" class="menu-button1"><b>다이어리</b></a>
+            <a href="./photo.html" class="menu-button1"><b>사진첩</b></a>
+            <a href="./visitor.html" class="menu-button1"><b>방명록</b></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+      
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "utf-8");
+
+        reader.onload = function () {
+          document.getElementById("secret-article").innerText = reader.result;
+          document.getElementById("secret-box").style.display = "block";
+        };
+      }
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,92 @@
+/** 최신 게시물 영역 */
+.news-flex-box {
+    flex: 0 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+/** 최신 게시물 좌측 영역 */
+.news-box {
+    flex: 0.5;
+    margin-right: 40px;
+}
+
+/** 최신 게시물 우측 영역 */
+.update-box {
+    flex: 0.5;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/** 미니룸 영역 */
+.miniroom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  
+.box-title {
+    font-family: "KOTRA_BOLD-Bold";
+    border-bottom: 1px solid grey;
+    color: #3b87ab;
+}
+
+/** 최신게시물 좌측 영역 (줄) */
+.news-row {
+    display: flex;
+    font-size: 0.85rem;
+    margin: 2px 0;
+    border-bottom: 1px dashed grey;
+}
+
+/** 사진첩, 게시판 공통 스타일 */
+.news-category {
+    padding: 0 2px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+/** 사진첩 색 */
+.category-pic {
+    background-color: #f15f5f;
+}
+
+/** 게시판 색 */
+.category-post {
+    background-color: #617dc1;
+}
+
+/** 최신게시물 우측 영역 (줄) */
+.menu-row {
+    display: flex;
+    font-size: 0.8rem;
+    border-bottom: 1px dashed grey;
+    margin: 2px 20px;
+}
+  
+.menu-item {
+    flex: 1;
+}
+  
+.menu-num {
+    font-family: "NeoDunggeunmo";
+    padding-left: 6px;
+    color: #003399;
+}
+
+/** 미니룸 박스 관련 */
+.miniroom-box {
+    background-color: #808080;
+    border: 1px solid #808080;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.miniroom-box > img {
+    width: 100%;
+    height: 100%;
+}

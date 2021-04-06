@@ -1,0 +1,113 @@
+/** 날짜 박스 */
+.date-box {
+    position: absolute;
+    top: 50px;
+    height: 3rem;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    align-self: center;
+    align-items: center;
+  }
+  
+  .today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+  }
+  
+  .date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+  }
+  
+  .color-red {
+    color: red;
+  }
+  
+  .color-blue {
+    color: blue;
+  }
+
+
+/** 다이어리 박스 */
+.diary-box {
+    flex:0.9;
+    top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+  }
+  
+  .diary-name{
+    flex:0;
+    background-color: #f4f7e1;
+    border-radius: 5px;
+    color: black;
+    padding: 7px 7px 7px 17px;
+    margin: 7px;
+    font-size: 16px;
+    border: 1px solid grey;
+  }
+
+  .diary-article {
+      text-align: center;
+  }
+
+  .secret-article {
+    align-content: center;
+  }
+
+  .button-box {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .diary-button {
+    margin-top: 1rem;
+    align-self: center;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 600ms ease-in-out all;
+    border: none;
+  }
+
+  .diary-button:hover{
+      background-color: #873092;
+      color: #fff;
+  }
+
+  .fas{
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+
+  #secret-box {
+    display: none;
+  }

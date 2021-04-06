@@ -1,0 +1,40 @@
+/** 기본폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+/** 네오둥근네모 글씨체 */
+@font-face {
+  font-family: "NeoDunggeunmo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/** 코트라볼드 글씨체 */
+@font-face {
+  font-family: "KOTRA_BOLD-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/** 교보핸드 글씨체 */
+@font-face {
+  font-family: "KyoboHand";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/** 폰트 명령어 */
+.font-kotra {
+  font-family: "KOTRA_BOLD-Bold";
+}
+.font-kyobohand {
+  font-family: "KyoboHand";
+}
+.font-neo {
+  font-family: "NeoDunggeunmo";
+}

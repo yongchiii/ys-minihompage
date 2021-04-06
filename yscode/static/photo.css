@@ -1,0 +1,42 @@
+.photo-box{
+    flex:1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+}
+
+.photo-name{
+    flex:0;
+    background-color: #f1f8b3;
+    border-radius: 5px;
+    color: black;
+    padding: 7px 7px 7px 17px;
+    margin: 7px;
+    font-size: 16px;
+}
+
+.photo-photo {
+    background-color: #808080;
+    border: 1px solid #808080;
+    flex: 1;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+  
+.photo-photo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo-article{
+    flex:1;
+    margin:7px;
+    padding-left: 50px;
+    margin: 5px;
+    font-size: 1rem;
+}
